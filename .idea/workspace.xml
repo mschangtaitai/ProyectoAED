@@ -10,6 +10,14 @@
       <change afterPath="$PROJECT_DIR$/src/Prompt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real src/Atomo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Atomo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real src/GtLisp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real src/ImplementacionStack_Listas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImplementacionStack_Listas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real src/InterfazStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfazStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real src/Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real src/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real src/Prompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prompt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Atom.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -73,8 +81,8 @@
       <file leaf-file-name="Interpreter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="197">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#23200#23201#0" expanded="true" />
@@ -145,11 +153,6 @@
             <path>
               <item name="ProyectoEstructuraDatos" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProyectoAED" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectoEstructuraDatos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectoAED" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +253,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="881" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="801" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -260,13 +263,13 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info anchor="bottom" id="Run with VisualVM" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.40862656" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32900944" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -339,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Interpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="197">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#23200#23201#0" expanded="true" />
