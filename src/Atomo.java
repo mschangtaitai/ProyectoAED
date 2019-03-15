@@ -39,9 +39,7 @@ public class Atomo {
     }
 
     public Atomo(String atomo) {
-        /**
-         * Tratar de parsear un entero
-         */
+
         try {
             Atomo atomoConUnNumero = new Atomo(Integer.parseInt(atomo));
             this.copiarAtomo(atomoConUnNumero);
@@ -61,10 +59,6 @@ public class Atomo {
         }
     }
 
-    public Atomo(String atomo, String descripcion) {
-        this.atomo = atomo;
-        this.descripcion = descripcion;
-    }
 
     public Atomo(int numero) {
         this.numero = numero;
@@ -119,12 +113,6 @@ public class Atomo {
             return this.atomo;
     }
 
-    /**
-     * Ve si un atomo es igual a este
-     * (non-Javadoc)
-     * @see java.lang.Object#equals(java.lang.Object)
-     * @author kmels
-     */
     public boolean equals(Object objeto){
         Atomo otroAtomo = (Atomo)objeto;
 
@@ -140,12 +128,6 @@ public class Atomo {
         return this.atomo.compareTo(otroAtomo.atomo)==0;
     }
 
-    /**
-     * Ve si el atomo, en caso de ser un string, comienza con un subString
-     * @param substring subString por el que se esta buscando
-     * @return true si este atomo comienza con subString
-     * @author kmels
-     */
     public boolean comienzaCon(String substring){
         if ((substring.length()<=this.atomo.length()) && (!this.esLista)){
             return this.atomo.substring(0, substring.length()).compareTo(substring)==0;
@@ -154,11 +136,6 @@ public class Atomo {
         return false;
     }
 
-    /**
-     * Metodo que verifica si este atomo es una lista con una operacion
-     * @return True si la este atomo es una lista con una operacion
-     *
-     */
     public boolean EsListaConOperacion() {
         if (this.EsLista())
             return (this.lista.esOperacion);
@@ -166,31 +143,13 @@ public class Atomo {
         return false;
     }
 
-    /**
-     * Metodo que verifica si este atomo es un numero
-     */
     public boolean esNumero(){
         return this.esNumero;
     }
 
-    /**
-     * Ve si el atomo, en caso de ser un string, termina con un subString
-     * @param subString subString que se esta buscando
-     * @return true si este atomo termina con subString
-     * @author kmels
-     */
-
-    /**
-     * Metodo que verifica si este es un numero entero
-     * @return
-     */
     public boolean esEntero() {
         if (!this.esNumero)
             return false;
-
-        /**
-         * Si es numero, puede ser flotante o entero
-         */
 
         try {
             int numero = Integer.parseInt(this.atomo);
@@ -203,13 +162,13 @@ public class Atomo {
 
     public String getTipo() {
         if (this.esLista)
-            return "CONS";
+            return "Nil";
         else if (this.esNumero)
-            return "SINGLE-FLOAT";
+            return "T";
         else if (this.esNulo)
             return "NULL";
         else
-            return "SYMBOL";
+            return "T";
 
     }
 }

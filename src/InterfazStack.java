@@ -1,10 +1,4 @@
-/*Interfaz para el uso de los Stacks
- */
 
-/**
-   * @author chitiore
-   *
-   */
 public interface InterfazStack<E> {
 	
 	public boolean empty ();

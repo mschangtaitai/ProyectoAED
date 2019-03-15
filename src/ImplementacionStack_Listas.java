@@ -1,9 +1,3 @@
-/*Implentacion del stack por medio de lista encadenada simple
- 
-/**
-   * @author chitiore
-   *
-   */
 
 public class ImplementacionStack_Listas<E> implements InterfazStack<E> {
 	public int contador;
